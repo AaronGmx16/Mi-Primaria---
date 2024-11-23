@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primaria - Recursos Educativos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        header nav {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .header-buttons {
+            display: flex;
+            gap: 0.5em;
+        }
+        .header-buttons a {
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.2em;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header-buttons a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            padding: 2em;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2em;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5em;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card h2 {
+            color: #d50000;
+            font-size: 2em;
+            margin: 0;
+        }
+        .card p {
+            font-size: 1em;
+            color: #333;
+            margin: 1em 0;
+        }
+        .card a {
+            display: inline-block;
+            padding: 0.5em 1em;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MI PRIMARIA - RECURSOS EDUCATIVOS</h1>
+    <nav>
+        <a href="#">1ER GRADO</a>
+        <a href="#">2DO GRADO</a>
+        <a href="#">3ER GRADO</a>
+        <a href="#">BLOG</a>
+        <a href="#">DESCARGA LIBROS</a>
+        <div class="header-buttons">
+            <a href="#" title="Buscar">🔍</a>
+            <a href="#" title="Compartir">🔗</a>
+        </div>
+    </nav>
+</header>
+
+<main class="content">
+    <div class="card">
+        <h2>Q</h2>
+        <p><strong>En 2do Grado, Español</strong></p>
+        <h3>¿Qué es la entrevista?</h3>
+        <p>Una entrevista es una conversación donde una persona hace preguntas y otra las responde. Es una manera de aprender más sobre alguien...</p>
+        <a href="#">LEER MÁS</a>
+    </div>
+    <div class="card">
+        <h2>Q</h2>
+        <p><strong>En 2do Grado, Español</strong></p>
+        <h3>¿Qué es un instructivo?</h3>
+        <p>Un instructivo es un texto que nos dice cómo hacer algo paso a paso. Es como cuando alguien nos explica cómo armar un juguete...</p>
+        <a href="#">LEER MÁS</a>
+    </div>
+</main>
+
+</body>
+</html>
